@@ -1,0 +1,29 @@
+.Home {
+    scrollbar-width: 0;
+    overflow: hidden;
+    @apply bg-gray-500 flex h-screen w-screen relative justify-center items-center;
+}
+
+.btn {
+    @apply h-8 w-20 bg-green-500 flex justify-center items-center rounded-md
+}
+
+.btn:active {
+    @apply bg-green-400;
+}
+
+.GameL1 {
+    background: rgb(133, 245, 243);
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-in-out;
+    @apply flex justify-center items-center h-screen w-screen text-white;
+}
+
+.GameL2 {
+    background: #000;
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-in-out;
+    @apply flex justify-center items-center h-screen w-screen text-white;
+}
